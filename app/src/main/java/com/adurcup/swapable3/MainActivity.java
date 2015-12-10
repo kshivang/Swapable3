@@ -114,11 +114,11 @@ public class MainActivity extends AppCompatActivity {
 
         public static @DrawableRes int ImageToShow(int SectionNumber){
             if(SectionNumber==1)
-                return R.drawable.mono;
+                return R.drawable.pi6a3264;
             else if(SectionNumber==2)
-                return  R.drawable.lena;
+                return  R.drawable.pi6a3297;
             else
-                return R.drawable.mono;
+                return R.drawable.pi6a3304;
         }
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
