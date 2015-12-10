@@ -46,13 +46,16 @@
                 app:layout_behavior="@string/appbar_scrolling_view_behavior" />
             <RelativeLayout
                 android:background="#fff"
-                android:layout_width="350dp"
+                android:layout_width="330dp"
                 android:layout_centerHorizontal="true"
                 android:layout_height="match_parent"
+                android:paddingTop="16dp"
+                android:paddingBottom="180dp"
                 android:layout_below="@id/container">
                 <RelativeLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:background="#fff"
                     android:layout_centerHorizontal="true">
                     <TextView
                         android:layout_width="wrap_content"
@@ -60,15 +63,16 @@
                         android:gravity="end"
                         android:textAlignment="textEnd"
                         android:id="@+id/text"
-                        android:text="\n\n\nProduct    :\n\nQuantity    :\n\nDescription:\n\n"
-                        android:background="#fff" />
+                        android:text="\n\nProduct    :\n\nQuantity    :\n\nDescription    :"
+                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_toRightOf="@+id/text"
                         android:layout_height="match_parent"
+                        android:textColor="#000"
                         android:id="@+id/text1"
-                        android:text="\n\n\n    Cup\n\n    3pc.\n\n    Very good quality."
-                        android:background="#fff" />
+                        android:text="\n\n    Cup\n\n    3pc.\n\n    Very good quality."
+                         />
                 </RelativeLayout>
             </RelativeLayout>
         </RelativeLayout>
